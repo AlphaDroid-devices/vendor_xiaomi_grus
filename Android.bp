@@ -5,6 +5,25 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libbtconfigstore",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/libbtconfigstore.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/system_ext/lib64/libbtconfigstore.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
 android_app_import {
 	name: "SoterService",
 	owner: "xiaomi",
@@ -137,4 +156,3 @@ dex_import {
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar"],
 	system_ext_specific: true,
 }
-

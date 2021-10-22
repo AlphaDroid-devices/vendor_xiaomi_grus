@@ -1226,6 +1226,7 @@ PRODUCT_PACKAGES += \
     audiosphere \
     CneApp \
     dpmserviceapp \
+    libbtconfigstore \
     ims \
     IWlanService \
     PowerOffAlarm \
