@@ -401,6 +401,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/grus/proprietary/vendor/etc/thermal-engine-sdm710-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm710-sgame.conf \
     vendor/xiaomi/grus/proprietary/vendor/etc/thermal-engine-sdm710-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sdm710-tgame.conf \
     vendor/xiaomi/grus/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
+    vendor/xiaomi/grus/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
+    vendor/xiaomi/grus/proprietary/vendor/firmware/1_doubelClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/1_doubelClick_P_RTP.bin \
+    vendor/xiaomi/grus/proprietary/vendor/firmware/2_tick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/2_tick_P_RTP.bin \
+    vendor/xiaomi/grus/proprietary/vendor/firmware/3_thud_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/3_thud_P_RTP.bin \
+    vendor/xiaomi/grus/proprietary/vendor/firmware/4_pop_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/4_pop_P_RTP.bin \
+    vendor/xiaomi/grus/proprietary/vendor/firmware/5_heavyClick_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/5_heavyClick_P_RTP.bin \
     vendor/xiaomi/grus/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
     vendor/xiaomi/grus/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/xiaomi/grus/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
